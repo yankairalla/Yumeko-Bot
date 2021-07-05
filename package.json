@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  },
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.9"
+  },
+  "scripts": {
+    "start": "node -r dotenv/config src/index.js",
+    "dev": "nodemon -r dotenv/config src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
