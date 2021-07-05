@@ -11,8 +11,9 @@ const commandFiles = fs
 
 const { prefix } = require("../config.json");
 
-client.on("ready", () => {
+client.on("ready", ({content}) => {
   console.log("Bot está funcionando!");
+  content.channel.send("Estou funcionando!")
 });
 
 console.log(commandFiles);
